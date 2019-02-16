@@ -6,7 +6,7 @@
   width:100vw;
   height: 100vh;
   position:absolute;
-  background-color:#882627;
+  background-color:#3e2737;
   display: block;
   position:fixed;
   left: 0;
@@ -17,6 +17,7 @@
 }
 
   #menuPhones ul{
+    margin-top: 0;
     text-align: center;
     padding: 0;
   }
@@ -28,9 +29,16 @@
       margin:30px 0;
     }
 
-    #menuPhones img{
-      width:80px;
-    }
+      #menuPhones li:first-child{
+        background-color: #882627;
+        border-bottom: 2px solid #f2a476;
+        padding: 20px;
+        margin:0;
+      }
+
+      #menuPhones img{
+        width:80px;
+      }
 
       #menuPhones a{
         text-decoration: none;
@@ -39,7 +47,7 @@
       }
 
       #menuPhones a#paginaActiva{
-		    color:#a95634;
+		    color:#f2a476;
       }
 
 #logo{
@@ -59,8 +67,8 @@
   font-family: 'Eras';
   background-color:#882627;
   color:white;
-  border-top: 5px solid #a95634;
-  border-bottom: 5px solid #a95634;
+  border-top: 5px solid #3e2737;
+  border-bottom: 5px solid #3e2737;
 }
 
 #nav ul{
