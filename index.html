@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/plantilla.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es">
+<!-- InstanceBegin template="/Templates/plantilla.dwt" codeOutsideHTMLIsLocked="false" -->
 
 <head>
   <!-- InstanceBeginEditable name="doctitle" -->
@@ -23,7 +24,7 @@
   <link rel="stylesheet" href="CSS/queries.css" type="text/css">
 
   <link rel="stylesheet" href="CSS/styleKenBurns.css" type="text/css">
-  
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -40,7 +41,10 @@
   <!-- InstanceEndEditable -->
 </head>
 
-<body><!-- #BeginLibraryItem "/Library/Menu Movil.lbi" -->  <div id="menuPhones">
+<body>
+  <!-- #BeginLibraryItem "/Library/Menu Movil.lbi" -->
+  <div id="top"></div>
+  <div id="menuPhones">
     <ul>
       <li> <a href="index.html"><img src="Assets/logo.png" alt="logo del menu para telefonos de brigadeira"></a></li>
       <li> <a id="paginaActiva" href="index.html"> Inicio</a></li>
@@ -50,12 +54,17 @@
       <li> <a href="contacto.html">Contacto</a></li>
       <li onclick="closeMenu()"> <a href=""></a><i class="fas fa-times"></i></li>
     </ul>
-  </div><!-- #EndLibraryItem --><div id="wrapper" class="gradient"><!-- #BeginLibraryItem "/Library/Logo.lbi" -->  <div id="logo">
+  </div><!-- #EndLibraryItem -->
+  <div id="wrapper" class="gradient">
+    <!-- #BeginLibraryItem "/Library/Logo.lbi" -->
+    <div id="logo">
       <img src="Assets/logo.png" alt="" width="150" height="150">
-    </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/Navbar.lbi" --><div id="nav">
-    <p>Brigadeiras</p>
+    </div><!-- #EndLibraryItem -->
+    <!-- #BeginLibraryItem "/Library/Navbar.lbi" -->
+    <div id="nav">
+      <p>Brigadeiras</p>
       <div class="phoneMenuTrigger" onclick="openMenu()">
-          Menu
+        Menu
       </div>
       <ul>
         <li> <a href="contacto.html">Contacto</a></li>
@@ -64,43 +73,50 @@
         <li> <a href="nosotros.html">Nosotros</a></li>
         <li> <a id="paginaActiva" href="index.html"> Inicio</a></li>
       </ul>
-    </div><!-- #EndLibraryItem --><!-- InstanceBeginEditable name="Editable" -->
-<div id="main">
-  <div id="header">
-    <button id="CTA">Haz tu pedido!!!</button>
-  </div>
-  <div class="tarjeta gradient">
-    <div class="tarjeta__imagen">
-      <h1>Premios</h1>
-      <img src="Assets/premios.jpg"
-        alt="">
-    </div>
-    <div class="tarjeta__descripcion">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero eum molestiae ducimus, ea, iste rem
-        aliquam aut earum quod, sapiente debitis? Deleniti ducimus eligendi illum veritatis cum. Repellendus ducimus
-        voluptas quos suscipit unde explicabo obcaecati quaerat hic perspiciatis minus eveniet nisi, voluptatum ratione
-        similique harum temporibus delectus, necessitatibus porro.</p>
-    </div>
-  </div>
-  <div class="tarjeta gradient reverse">
+    </div><!-- #EndLibraryItem -->
+    <!-- InstanceBeginEditable name="Editable" -->
+    <div id="main">
+      <div id="header">
+        <button id="CTA">Haz tu pedido!!!</button>
+      </div>
+      <div class="tarjeta gradient">
+        <div class="tarjeta__imagen">
+          <h1>Premios</h1>
+          <img src="Assets/premios.jpg" alt="">
+        </div>
+        <div class="tarjeta__descripcion">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero eum molestiae ducimus, ea, iste rem
+            aliquam aut earum quod, sapiente debitis? Deleniti ducimus eligendi illum veritatis cum. Repellendus ducimus
+            voluptas quos suscipit unde explicabo obcaecati quaerat hic perspiciatis minus eveniet nisi, voluptatum
+            ratione
+            similique harum temporibus delectus, necessitatibus porro.</p>
+        </div>
+      </div>
+      <div class="tarjeta gradient reverse">
 
-    <div class="tarjeta__descripcion">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero eum molestiae ducimus, ea, iste rem
-        aliquam aut earum quod, sapiente debitis? Deleniti ducimus eligendi illum veritatis cum. Repellendus ducimus
-        voluptas quos suscipit unde explicabo obcaecati quaerat hic perspiciatis minus eveniet nisi, voluptatum ratione
-        similique harum temporibus delectus, necessitatibus porro.</p>
+        <div class="tarjeta__descripcion">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae libero eum molestiae ducimus, ea, iste rem
+            aliquam aut earum quod, sapiente debitis? Deleniti ducimus eligendi illum veritatis cum. Repellendus ducimus
+            voluptas quos suscipit unde explicabo obcaecati quaerat hic perspiciatis minus eveniet nisi, voluptatum
+            ratione
+            similique harum temporibus delectus, necessitatibus porro.</p>
+        </div>
+        <div class="tarjeta__imagen">
+          <h1>Clientes</h1>
+          <img src="Assets/clientes.jpg" alt="">
+        </div>
+      </div>
+      <div id="topArrow"><a href="#logo">Ir arriba <i class="fas fa-arrow-alt-circle-up"></i></a></div>
     </div>
-    <div class="tarjeta__imagen">
-      <h1>Clientes</h1>
-      <img src="Assets/clientes.jpg" alt="">
-    </div>
-  </div>
-  <div id = "topArrow"><a  href="#logo">Ir arriba <i class="fas fa-arrow-alt-circle-up"></i></a></div>
-</div>
 
-<!-- InstanceEndEditable --><!-- #BeginLibraryItem "/Library/Footer.lbi" -->    <div id="footer">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda neque sint dolores recusandae harum libero.
-    </div><!-- #EndLibraryItem --></div>
+    <!-- InstanceEndEditable -->
+    <!-- #BeginLibraryItem "/Library/Footer.lbi" -->
+    <div id="footer">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda neque sint dolores recusandae harum libero.
+    </div><!-- #EndLibraryItem -->
+  </div>
 </body>
 
-<!-- InstanceEnd --></html>
+<!-- InstanceEnd -->
+
+</html>

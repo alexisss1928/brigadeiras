@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/plantilla.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es">
+<!-- InstanceBegin template="/Templates/plantilla.dwt" codeOutsideHTMLIsLocked="false" -->
 
 <head>
   <!-- InstanceBeginEditable name="doctitle" -->
@@ -23,7 +24,7 @@
   <link rel="stylesheet" href="CSS/queries.css" type="text/css">
 
   <link rel="stylesheet" href="CSS/styleKenBurns.css" type="text/css">
-  
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -40,7 +41,10 @@
   <!-- InstanceEndEditable -->
 </head>
 
-<body><!-- #BeginLibraryItem "/Library/Menu Movil.lbi" -->  <div id="menuPhones">
+<body>
+  <!-- #BeginLibraryItem "/Library/Menu Movil.lbi" -->
+  <div id="top"></div>
+  <div id="menuPhones">
     <ul>
       <li> <a href="index.html"><img src="Assets/logo.png" alt="logo del menu para telefonos de brigadeira"></a></li>
       <li> <a href="index.html"> Inicio</a></li>
@@ -50,12 +54,17 @@
       <li> <a id="paginaActiva" href="contacto.html">Contacto</a></li>
       <li onclick="closeMenu()"> <a href=""></a><i class="fas fa-times"></i></li>
     </ul>
-  </div><!-- #EndLibraryItem --><div id="wrapper" class="gradient"><!-- #BeginLibraryItem "/Library/Logo.lbi" -->  <div id="logo">
+  </div><!-- #EndLibraryItem -->
+  <div id="wrapper" class="gradient">
+    <!-- #BeginLibraryItem "/Library/Logo.lbi" -->
+    <div id="logo">
       <img src="Assets/logo.png" alt="" width="150" height="150">
-    </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/Navbar.lbi" --><div id="nav">
-    <p>Brigadeiras</p>
+    </div><!-- #EndLibraryItem -->
+    <!-- #BeginLibraryItem "/Library/Navbar.lbi" -->
+    <div id="nav">
+      <p>Brigadeiras</p>
       <div class="phoneMenuTrigger" onclick="openMenu()">
-          Menu
+        Menu
       </div>
       <ul>
         <li> <a id="paginaActiva" href="contacto.html">Contacto</a></li>
@@ -64,30 +73,36 @@
         <li> <a href="nosotros.html">Nosotros</a></li>
         <li> <a href="index.html"> Inicio</a></li>
       </ul>
-    </div><!-- #EndLibraryItem --><!-- InstanceBeginEditable name="Editable" -->
-<div id="main">
-  <div id="contactImg">
-    <img src="Assets/contacto.jpg" alt="">
-  </div>
-  <div id="contactDatos" class="gradient">
-    <p>
-      <span>Direccion:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br/>
-      <span>Telefono:</span> 0212.659.32.56 / 0424.859.78.54<br/>
-      <span>Correo:</span> brigadeiras.cake@gmail.com
-    </p>
-    <div id="linkRedes">
-    <h2>Redes Sociales</h2>
-    <p><a href="" target="_blank"><i class="fab fa-instagram"></i></a>
-       <a href="" target="_blank"><i class="fab fa-pinterest-square"></i></a>
-       <a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
-       <a href="" target="_blank"><i class="fab fa-youtube-square"></i></a></p>
+    </div><!-- #EndLibraryItem -->
+    <!-- InstanceBeginEditable name="Editable" -->
+    <div id="main">
+      <div id="contactImg">
+        <img src="Assets/contacto.jpg" alt="">
       </div>
+      <div id="contactDatos" class="gradient">
+        <p>
+          <span>Direccion:</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br />
+          <span>Telefono:</span> 0212.659.32.56 / 0424.859.78.54<br />
+          <span>Correo:</span> brigadeiras.cake@gmail.com
+        </p>
+        <div id="linkRedes">
+          <h2>Redes Sociales</h2>
+          <p><a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+            <a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="" target="_blank"><i class="fab fa-youtube-square"></i></a></p>
+        </div>
+      </div>
+      <div id="topArrow"><a href="#top">Ir arriba <i class="fas fa-arrow-alt-circle-up"></i></a></div>
+    </div>
+    <!-- InstanceEndEditable -->
+    <!-- #BeginLibraryItem "/Library/Footer.lbi" -->
+    <div id="footer">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda neque sint dolores recusandae harum libero.
+    </div><!-- #EndLibraryItem -->
   </div>
-  <div id = "topArrow"><a  href="#top">Ir arriba <i class="fas fa-arrow-alt-circle-up"></i></a></div>
-</div>
-<!-- InstanceEndEditable --><!-- #BeginLibraryItem "/Library/Footer.lbi" -->    <div id="footer">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda neque sint dolores recusandae harum libero.
-    </div><!-- #EndLibraryItem --></div>
 </body>
 
-<!-- InstanceEnd --></html>
+<!-- InstanceEnd -->
+
+</html>
