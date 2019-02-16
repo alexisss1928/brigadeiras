@@ -270,13 +270,17 @@ p{
 		font-size: 1.1em;
 		font-family: 'Eras';
 		font-weight:400;
-		border: #34A997 solid 2px;
+		border: #3e2737 solid 4px;
 		box-shadow: 5px 5px 5px #41210a;
 		cursor: pointer;
 	}
 
+	#CTA:hover{
+		background-color: #a95634;
+	}
+
 	#CTA:active {
-		background-color: #41210a;
+		background-color: #882627;
 		box-shadow: 1px 1px 2px #41210a;
 	}
 	
