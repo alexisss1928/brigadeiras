@@ -1,0 +1,202 @@
+@media (max-device-width:940px){
+/************************************************
+*****************Estilos Comunes*****************
+************************************************/
+#menuPhones{
+  width:100vw;
+  height: 100vh;
+  position:absolute;
+  background-color:#882627;
+  display: block;
+  position:fixed;
+  left: 0;
+  top: 100%;
+  z-index:999;
+  transition: all 0.3s;
+  color:white;
+}
+
+  #menuPhones ul{
+    text-align: center;
+    padding: 0;
+  }
+
+    #menuPhones li{
+      list-style-type: none;
+      font-size: 1.6em;
+      font-family: 'Eras';
+      margin:30px 0;
+    }
+
+    #menuPhones img{
+      width:80px;
+    }
+
+      #menuPhones a{
+        text-decoration: none;
+        color: #fff;
+        font-size: .8em;
+      }
+
+      #menuPhones a#paginaActiva{
+		    color:#a95634;
+      }
+
+#logo{
+	display: none;
+}
+
+#nav p{
+  text-align: center;
+}
+
+.phoneMenuTrigger{
+  margin-top:80px;
+  text-align: center;
+  width:100%;
+  display: block;
+  font-size: 1em;
+  font-family: 'Eras';
+  background-color:#882627;
+  color:white;
+  border-top: 5px solid #a95634;
+  border-bottom: 5px solid #a95634;
+}
+
+#nav ul{
+  display: none;
+}
+
+#nav{
+  width:100%;
+  height: auto;
+}
+
+#topArrow{
+  display:block;
+}
+
+/****************************************
+****************Servicios****************
+****************************************/
+
+#cards{
+  width: 100%
+}
+
+#redes{
+  width: 100%;
+}
+
+/****************************************
+******************Inicio*****************
+****************************************/
+.tarjeta__imagen{
+  width:100%;
+}
+
+.tarjeta__descripcion{
+	width:100%;
+}
+
+.reverse{
+  display:flex;
+  flex-direction: column-reverse;
+}
+
+/********************************************
+********************Nosotros*****************
+********************************************/
+#nosotros img{
+	width:100%;
+}
+
+/****************************************
+*****************Contacto****************
+****************************************/
+#contactImg{
+	width:100%;
+}
+
+#contactImg img{
+  width:100%;
+}
+
+#contactDatos{
+	width:100%;
+}
+
+
+/************************************************
+/************************************************
+*************************************************
+*************************************************
+************************************************/
+@media (max-device-width:680px){
+/*******************************************
+*****************Servicios******************
+********************************************/
+
+
+#slideshow{
+  display:block;
+  margin-bottom: 20px;
+}
+
+#horizontalSlide{
+  display:none;
+}
+
+
+/******************************************
+****************Productos******************
+******************************************/
+.producto{
+	width:50%;
+}
+}
+}
+
+/************************************************
+/************************************************
+*************************************************
+*************************************************
+************************************************/
+@media (max-device-width:450px){
+/********************************************
+****************Estilos Comunes**************
+*********************************************/
+#wrapper {
+	padding: 20px;
+}
+
+#nav p{
+  font-size: 3em;
+  line-height: 20px;
+  margin-bottom: -30px;
+}
+
+/******************************************
+****************Inicio******************
+******************************************/
+#header{
+	height: 200px;
+}
+
+	#CTA{
+		top:70px;
+	}
+
+/******************************************
+****************Productos******************
+******************************************/
+.producto{
+	width:100%;
+}
+
+  .producto #topArrow{
+    display:block;
+    width:100%;
+  }
+}
+

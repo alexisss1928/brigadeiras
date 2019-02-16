@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- TemplateBeginEditable name="doctitle" -->
+  <title>Brigadeiras | Cupcakes y dulceria</title>
+  <!-- TemplateEndEditable -->
+  <meta name="Keywords" content="cupcakes, tortas, dulces, galletas">
+  <meta name="description"
+    content="Pasteleria ubicada en Caracas, preparamos dulces de tu preferencia perfectos para bodas, cumpleaños y cualquier tipo de reunion">
+  <meta name="language" content="ES">
+  <meta name="geo.region" content="VE" />
+  <meta name="geo.placename" content="Caracas" />
+  <meta name="geo.position" content="10.480594;-66.903606" />
+  <link rel="icon" type="image/x-icon" href="../Assets/favicon.ico">
+  <link href="../CSS/style.css" rel="stylesheet" type="text/css">
+  <link href="../CSS/queries.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../JS/inicio.js"></script>
+  <link rel="stylesheet" type="text/css" href="../CSS/styleKenBurns.css">
+  <script type="text/javascript" src="../JS/kenburns.js"></script>
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+</head>
+
+<body><!-- #BeginLibraryItem "/Library/Menu Movil.lbi" -->  <div id="menuPhones">
+    <ul>
+      <li> <a href="../index.html">Brigadeiras</a></li>
+      <li> <a href="../index.html"> Inicio</a></li>
+      <li> <a href="../nosotros.html">Nosotros</a></li>
+      <li> <a href="../productos.html">Productos</a></li>
+      <li> <a href="../servicio.html">Servicios</a></li>
+      <li> <a href="../contacto.html">Contacto</a></li>
+      <li onclick="closeMenu()"> <a href=""></a><i class="fas fa-times"></i></li>
+    </ul>
+  </div><!-- #EndLibraryItem --><div id="wrapper" class="gradient"><!-- #BeginLibraryItem "/Library/Logo.lbi" -->  <div id="logo">
+      <img src="../Assets/logo.png" alt="" width="150" height="150">
+    </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/Navbar.lbi" --><div id="nav">
+    <p>Brigadeiras</p>
+      <div class="phoneMenuTrigger" onclick="openMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul>
+        <li> <a href="../contacto.html">Contacto</a></li>
+        <li> <a href="../servicio.html">Servicios</a></li>
+        <li> <a href="../productos.html">Productos</a></li>
+        <li> <a href="../nosotros.html">Nosotros</a></li>
+        <li> <a href="../index.html"> Inicio</a></li>
+      </ul>
+    </div><!-- #EndLibraryItem --><!-- TemplateBeginEditable name="Editable" -->
+<div id="main">
+
+</div>
+<!-- TemplateEndEditable --><!-- #BeginLibraryItem "/Library/Footer.lbi" -->    <div id="footer">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda neque sint dolores recusandae harum libero,
+      laboriosam tempore ipsum corporis molestiae, est laudantium consectetur labore provident optio iste nulla laborum
+      rem?
+    </div><!-- #EndLibraryItem --></div>
+</body>
+
+</html>
