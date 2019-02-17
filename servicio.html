@@ -6,7 +6,7 @@
   <!-- InstanceBeginEditable name="doctitle" -->
   <title>Brigadeiras | Cupcakes y dulceria</title>
   <!-- InstanceEndEditable -->
-  <link rel="icon" type="image/x-icon" href="Assets/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="Assets/favcon.ico">
   <meta charset="UTF-8">
   <meta name="Keywords" content="cupcakes, tortas, dulces, galletas">
   <meta name="description"
@@ -29,6 +29,10 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <!--Scripts-->
+  <script type="text/javascript" src="JS/prototype.js"></script>
+  <script type="text/javascript" src="JS/scriptaculous.js?load=effects"></script>
+  <script type="text/javascript" src="JS/lightbox.js"></script>
+
   <script type="text/javascript" src="JS/jquery.min.js"></script>
   <script type="text/javascript" src="JS/kenburns.js"></script>
 
@@ -38,6 +42,7 @@
 </head>
 
 <body>
+  <!-- #BeginLibraryItem "/Library/Menu Movil.lbi" -->
   <div id="top"></div>
   <div id="menuPhones">
     <ul>
@@ -49,11 +54,13 @@
       <li> <a href="contacto.html">Contacto</a></li>
       <li onclick="closeMenu()"> <a href=""></a><i class="fas fa-times"></i></li>
     </ul>
-  </div>
+  </div><!-- #EndLibraryItem -->
   <div id="wrapper" class="gradient">
+    <!-- #BeginLibraryItem "/Library/Logo.lbi" -->
     <div id="logo">
       <img src="Assets/logo.png" alt="" width="150" height="150">
-    </div>
+    </div><!-- #EndLibraryItem -->
+    <!-- #BeginLibraryItem "/Library/Navbar.lbi" -->
     <div id="nav">
       <p>Brigadeiras</p>
       <div id="phoneMenuTrigger" onclick="openMenu()">
@@ -66,7 +73,8 @@
         <li> <a href="nosotros.html">Nosotros</a></li>
         <li> <a href="index.html"> Inicio</a></li>
       </ul>
-    </div>
+    </div><!-- #EndLibraryItem -->
+    <!-- InstanceBeginEditable name="Editable" -->
     <div id="main">
       <div id="horizontalSlide">
         <ul id="accordion">
@@ -133,6 +141,8 @@
       </div>
       <div id="topArrow"><a href="#top">Ir arriba <i class="fas fa-arrow-alt-circle-up"></i></a></div>
     </div>
+    <!-- InstanceEndEditable -->
+    <!-- #BeginLibraryItem "/Library/Footer.lbi" -->
     <div id="footer">
       <div id="footerMapa">
         <h1>Mapa del sitio</h1>
@@ -156,15 +166,15 @@
       <div id="footerContacto">
         <h1>Contactanos</h1>
         <h2><i class="fas fa-map-marker-alt"></i></h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quaerat perspiciatis dolor possimus neque maiores velit excepturi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quaerat.</p>
         <h2><i class="fas fa-mobile-alt"></i></h2>
         <p>0412.238.69.74 / 0424.238.69.74</p>
       </div>
       <div id="footerCinta">
           <p>Hecho por Alexis Salcedo para el curso de Dreamweaver en Arts Instituto de Computacion Grafica.</p>
       </div>
-    </div>
+    </div><!-- #EndLibraryItem -->
   </div>
 </body>
-
+<!-- InstanceEnd -->
 </html>
