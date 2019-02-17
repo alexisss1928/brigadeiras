@@ -1,5 +1,5 @@
-/*****************************Accordion******************************
-*/
+/*****************************Accordion******************************/
+
 $(document).ready(function(){
   
   activeItem = $("#accordion li:nth-child(2)");
@@ -14,8 +14,8 @@ $(document).ready(function(){
 
 
 /*
-**********************Slideshow Dynamic Drive**********************
-*/
+**********************Slideshow Dynamic Drive**********************/
+
 var titles = ["Rustic Walls",
 				  "Two Love Birds",
 				  "Beauty and Fame",
@@ -53,8 +53,8 @@ var titles = ["Rustic Walls",
   });
   
   /*
- ********************Menu telefonos********************
-*/
+ ********************Menu telefonos********************/
+
 
 function openMenu() {
   const open = document.getElementById("menuPhones");
