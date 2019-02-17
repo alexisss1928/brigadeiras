@@ -139,23 +139,90 @@ p{
 	margin-top:20px;
 }
 
-#topArrow a{
-	width: 150px;
-	color:white;
-	text-decoration: none;
-	background-color: #3e2737;
-	border-radius: 8px;
-	padding: 5px 20px;
-}
+	#topArrow a{
+		width: 150px;
+		color:white;
+		text-decoration: none;
+		background-color: #3e2737;
+		border-radius: 8px;
+		padding: 5px 20px;
+	}
 
 #footer{
+	border-top: 10px solid #3e2737;;
 	font-size: 0.8em;
 	clear:both;
 	background-color: #41210a;
 	color:#f2a476;
 	text-align: center;
-	padding: 10px 50px;
+	padding-top: 10px;
 }
+
+	#footerMapa{
+		width: 33%;
+		float: left;
+	}
+
+	#footerMapa ul{
+		padding-left: 0;
+	}
+
+		#footerMapa li{
+			list-style-type: none;
+			text-decoration: none;
+			color: white;
+		}
+
+			#footerMapa a{
+				text-decoration: none;
+				color: #f2a476;
+			}
+
+	#footerRedes{
+		width: 33%;
+		float: left;
+	}
+
+		#footerRedes ul{
+			padding-left: 0;
+		}
+
+			#footerRedes li{
+				list-style-type: none;
+				text-decoration: none;
+				color: white;
+			}
+
+				#footerRedes a{
+					text-decoration: none;
+					color: #f2a476;
+					font-size: 1.5em;
+				}
+
+	#footerContacto{
+		float: left;
+		width: 33%;
+		box-sizing: border-box;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+		#footerContacto p{
+			text-align: center;
+		}
+
+	#footerCinta{
+		background-color: #3e2737;
+		width: 100%;
+		clear: both;
+	}
+
+	#footerCinta p{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color:white;
+		text-align: center;
+	}
 
 /****************************************
 ******************Inicio*****************
@@ -225,6 +292,9 @@ p{
 		width:60%;
 	}
 
+		.tarjeta__descripcion h1{
+			text-align: center;
+		}
 /****************************************
 ****************Nosotros****************
 ****************************************/

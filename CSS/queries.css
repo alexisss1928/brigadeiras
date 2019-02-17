@@ -84,6 +84,11 @@
   display:block;
 }
 
+#footerMapa, #footerRedes,#footerContacto{
+  width:100%;
+  text-align: center;
+}
+
 /******************************************
 ****************Inicio******************
 ******************************************/
