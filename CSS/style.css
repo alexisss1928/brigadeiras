@@ -137,6 +137,7 @@ p{
 	width:100%;
 	text-align:center;
 	margin-top:20px;
+	margin-bottom: 20px;
 }
 
 	#topArrow a{
@@ -333,6 +334,10 @@ p{
 	font-size: 1em;
 }
 
+	.producto div{
+		padding: 10px 5px 5px 5px;
+	}
+
 	.producto h2{
 		margin: 0px auto 0px auto;
 		width:80%;
@@ -382,7 +387,6 @@ p{
 	}
 		
 		#accordion li {
-			background-image: url("../Assets/Accordeon/stawberry.jpg");
 			background-position: center center;
 			background-size: cover;
 			border-left:0;
@@ -397,6 +401,22 @@ p{
 			line-height: 1.5em;
 			transition:.6s;
 		}
+
+			#accordion li:nth-child(1) {
+				background-image: url("../Assets/Accordeon/imagen01.jpg")
+			}
+
+			#accordion li:nth-child(2) {
+				background-image: url("../Assets/Accordeon/imagen02.jpg")
+			}
+
+			#accordion li:nth-child(3) {
+				background-image: url("../Assets/Accordeon/imagen03.jpg")
+			}
+
+			#accordion li:nth-child(4) {
+				background-image: url("../Assets/Accordeon/imagen04.jpg")
+			}
 
 			#accordion li.active {
 				width:100%;
