@@ -1,13 +1,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div id="nav">
-    <p>Brigadeiras</p>
-      <div class="phoneMenuTrigger" onclick="openMenu()">
-        <i class="fas fa-bars"></i>
+      <p>Brigadeiras</p>
+      <div id="phoneMenuTrigger" onclick="openMenu()">
+        Menu
       </div>
       <ul>
         <li> <a href="../contacto.html">Contacto</a></li>
         <li> <a href="../servicio.html">Servicios</a></li>
         <li> <a href="../productos.html">Productos</a></li>
         <li> <a href="../nosotros.html">Nosotros</a></li>
-        <li> <a href="../index.html"> Inicio</a></li>
+        <li> <a href="../index.html">Inicio</a></li>
       </ul>
     </div>

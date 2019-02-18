@@ -80,11 +80,7 @@
   height: auto;
 }
 
-.topArrow{
-  display:block;
-}
-
-#footerMapa, #footerRedes,#footerContacto{
+#footerMapa, #footerRedes, #footerContacto{
   width:100%;
   text-align: center;
 }
@@ -129,7 +125,7 @@
 ****************************************/
 
 #cards{
-  width: 100%
+  width: 100%;
 }
 
 #redes{
@@ -159,6 +155,13 @@
 *************************************************
 ************************************************/
 @media (max-device-width:680px){
+/************************************************
+*****************Estilos Comunes*****************
+************************************************/
+.topArrow{
+  display:block;
+}
+  
 /*******************************************
 *****************Servicios******************
 ********************************************/
@@ -207,6 +210,5 @@
 
   .producto .topArrow{
     display:block;
-    width:100%;
   }
 }

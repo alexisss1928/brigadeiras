@@ -1,64 +1,99 @@
-<!DOCTYPE html>
-<html lang="es">
-
+<!doctype html>
+<html>
 <head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+  <link rel="icon" type="image/x-icon" href="Assets/favcon.ico">
   <meta charset="UTF-8">
-  <!-- TemplateBeginEditable name="doctitle" -->
-  <title>Brigadeiras | Cupcakes y dulceria</title>
-  <!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="meta" -->
   <meta name="Keywords" content="cupcakes, tortas, dulces, galletas">
   <meta name="description"
-    content="Pasteleria ubicada en Caracas, preparamos dulces de tu preferencia perfectos para bodas, cumpleaños y cualquier tipo de reunion">
+    content="Pasteleria ubicada en Caracas, preparamos dulces de tu preferencia perfectos para bodas, cumpleaños y cualquier tipo de evento">
+    <!-- TemplateEndEditable -->
+  <meta name="viewport" content="initial-scale=1">
   <meta name="language" content="ES">
   <meta name="geo.region" content="VE" />
   <meta name="geo.placename" content="Caracas" />
   <meta name="geo.position" content="10.480594;-66.903606" />
-  <link rel="icon" type="image/x-icon" href="../Assets/favicon.ico">
+<!-- TemplateBeginEditable name="estilos" -->
+  <!--Hojas de estilo-->
   <link href="../CSS/style.css" rel="stylesheet" type="text/css">
   <link href="../CSS/queries.css" rel="stylesheet" type="text/css">
+  <link href="../CSS/lightbox.css" rel="stylesheet" type="text/css">
+  <link href="../CSS/styleKenBurns.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="../JS/inicio.js"></script>
-  <link rel="stylesheet" type="text/css" href="../CSS/styleKenBurns.css">
-  <script type="text/javascript" src="../JS/kenburns.js"></script>
-  <!-- TemplateBeginEditable name="head" -->
-  <!-- TemplateEndEditable -->
+  <!--Scripts-->
+  <script type="text/javascript" src="JS/jquery.min.js"></script>
+  <script type="text/javascript" src="JS/kenburns.js"></script>
+
+  <script type="text/javascript" src="JS/prototype.js"></script>
+  <script type="text/javascript" src="JS/scriptaculous.js?load=effects"></script>
+  <script type="text/javascript" src="JS/lightbox.js"></script>
+
+  <script type="text/javascript" src="JS/inicio.js"></script>
+<!-- TemplateEndEditable -->
 </head>
 
-<body><!-- #BeginLibraryItem "/Library/Menu Movil.lbi" -->  <div id="menuPhones">
+<body>
+<div id="top"></div><!-- #BeginLibraryItem "/Library/Menu movil.lbi" --><div id="menuPhones">
     <ul>
-      <li> <a href="../index.html">Brigadeiras</a></li>
-      <li> <a href="../index.html"> Inicio</a></li>
+      <li> <a href="../index.html"><img src="../Assets/logo.png" alt="logo del menu para telefonos de brigadeira"></a></li>
+      <li> <a href="../index.html">Inicio</a></li>
       <li> <a href="../nosotros.html">Nosotros</a></li>
       <li> <a href="../productos.html">Productos</a></li>
       <li> <a href="../servicio.html">Servicios</a></li>
       <li> <a href="../contacto.html">Contacto</a></li>
-      <li onclick="closeMenu()"> <a href=""></a><i class="fas fa-times"></i></li>
+      <li onclick="closeMenu()"> <a href=""><i class="fas fa-times"></i></a></li>
     </ul>
-  </div><!-- #EndLibraryItem --><div id="wrapper" class="gradient"><!-- #BeginLibraryItem "/Library/Logo.lbi" -->  <div id="logo">
-      <img src="../Assets/logo.png" alt="" width="150" height="150">
+  </div><!-- #EndLibraryItem --><div id="wrapper" class="gradient"><!-- #BeginLibraryItem "/Library/Logo.lbi" --><div id="logo">
+      <img src="../Assets/logo.png" alt="Logo de Brigadeiras" width="150" height="150">
     </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/Navbar.lbi" --><div id="nav">
-    <p>Brigadeiras</p>
-      <div class="phoneMenuTrigger" onclick="openMenu()">
-        <i class="fas fa-bars"></i>
+      <p>Brigadeiras</p>
+      <div id="phoneMenuTrigger" onclick="openMenu()">
+        Menu
       </div>
       <ul>
         <li> <a href="../contacto.html">Contacto</a></li>
         <li> <a href="../servicio.html">Servicios</a></li>
         <li> <a href="../productos.html">Productos</a></li>
         <li> <a href="../nosotros.html">Nosotros</a></li>
-        <li> <a href="../index.html"> Inicio</a></li>
+        <li> <a href="../index.html">Inicio</a></li>
       </ul>
     </div><!-- #EndLibraryItem --><!-- TemplateBeginEditable name="Editable" -->
-<div id="main">
-
-</div>
-<!-- TemplateEndEditable --><!-- #BeginLibraryItem "/Library/Footer.lbi" -->    <div id="footer">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda neque sint dolores recusandae harum libero,
-      laboriosam tempore ipsum corporis molestiae, est laudantium consectetur labore provident optio iste nulla laborum
-      rem?
+    <div id="main"> </div>
+    <!-- TemplateEndEditable --><!-- #BeginLibraryItem "/Library/Footer.lbi" --><div id="footer">
+      <div id="footerMapa">
+        <h1>Mapa del sitio</h1>
+          <ul>
+            <li> <a href="../index.html"> Inicio</a></li>
+            <li> <a href="../nosotros.html">Nosotros</a></li>
+            <li> <a href="../productos.html">Productos</a></li>
+            <li> <a href="../servicio.html">Servicios</a></li>
+            <li> <a href="../contacto.html">Contacto</a></li>
+          </ul>
+      </div>
+      <div id = "footerRedes">
+          <h1>Redes Sociales</h1>
+          <ul>
+              <li> <a href="" target="_blank"> <i class="fab fa-instagram"></i></a></li>
+              <li> <a href="" target="_blank"><i class="fab fa-pinterest-square"></i></a></li>
+              <li> <a href="" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+              <li> <a href="" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+            </ul>
+      </div>
+      <div id="footerContacto">
+        <h1>Contactanos</h1>
+        <h2><i class="fas fa-map-marker-alt"></i></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quaerat.</p>
+        <h2><i class="fas fa-mobile-alt"></i></h2>
+        <p>0412.238.69.74<br>0424.238.69.74</p>
+      </div>
+      <div id="footerCinta">
+          <p><i class="fas fa-code"></i> por Alexis Salcedo, Curso de Dreamweaver, <a href="https://artsinstituto.com/es/">Arts Instituto de Computacion Grafica</a>.</p>
+      </div>
     </div><!-- #EndLibraryItem --></div>
-</body>
-
+    </body>
 </html>

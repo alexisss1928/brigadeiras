@@ -36,11 +36,10 @@ var titles = ["Rustic Walls",
 	$(document).ready(function() {
 	    $('#kenburns-slideshow').Kenburns({
 	    	images: [
-	    		"Assets/Slideshare/imagen01.jpeg",
-	    		"Assets/Slideshare/imagen02.jpg",
-	    		"Assets/Slideshare/imagen03.png",
-	    		"Assets/Slideshare/imagen04.jpg",
-	    		"Assets/Slideshare/imagen05.jpg"
+	    		"Assets/Accordeon/imagen01.jpg",
+	    		"Assets/Accordeon/imagen02.jpg",
+	    		"Assets/Accordeon/imagen03.jpg",
+	    		"Assets/Accordeon/imagen04.jpg",
 	    	],
 			urls: [
 				"",
