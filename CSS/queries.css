@@ -1,214 +1,217 @@
 @media (max-device-width:940px){
-/************************************************
-*****************Estilos Comunes*****************
-************************************************/
-#menuPhones{
-  width:100vw;
-  height: 100vh;
-  position:absolute;
-  background-color:#3e2737;
-  display: block;
-  position:fixed;
-  left: 0;
-  top: 100%;
-  z-index:999;
-  transition: all 0.3s;
-  color:white;
-}
-
-  #menuPhones ul{
-    margin-top: 0;
-    text-align: center;
-    padding: 0;
+  /************************************************
+  *****************Estilos Comunes*****************
+  ************************************************/
+  #menuPhones{
+    width:100vw;
+    height: 100vh;
+    position:absolute;
+    background-color:#3e2737;
+    display: block;
+    position:fixed;
+    left: 0;
+    top: 100%;
+    z-index:999;
+    transition: all 0.3s;
+    color:white;
   }
-
-    #menuPhones li{
-      list-style-type: none;
-      font-size: 1.6em;
-      font-family: 'Eras';
-      margin:30px 0;
-    }
-
-      #menuPhones li:first-child{
-        background-color: #882627;
-        border-bottom: 2px solid #f2a476;
-        padding: 20px;
-        margin:0;
-      }
-
-      #menuPhones img{
-        width:80px;
-      }
-
-      #menuPhones a{
-        text-decoration: none;
-        color: #fff;
-        font-size: .8em;
-      }
-
-      #menuPhones a#paginaActiva{
-		    color:#f2a476;
-      }
-
-#logo{
-	display: none;
-}
-
-#nav p{
-  text-align: center;
-}
-
-#phoneMenuTrigger{
-  margin-top:80px;
-  text-align: center;
-  width:100%;
-  display: block;
-  font-size: 1em;
-  font-family: 'Eras';
-  background-color:#882627;
-  color:white;
-  border-top: 5px solid #3e2737;
-  border-bottom: 5px solid #3e2737;
-}
-
-#nav ul{
-  display: none;
-}
-
-#nav{
-  width:100%;
-  height: auto;
-}
-
-#footerMapa, #footerRedes, #footerContacto{
-  width:100%;
-  text-align: center;
-}
-
-/******************************************
-****************Inicio******************
-******************************************/
-#header{
-	height: 200px;
-}
-
-	#CTA{
-    width: auto;
-    font-size: .8em;
-    height: 40px;
-		top:80px;
-	}
-
-
-.tarjeta__imagen{
-  width:100%;
-}
-
-.tarjeta__descripcion{
-	width:100%;
-}
-
-.reverse{
-  display:flex;
-  flex-direction: column-reverse;
-}
-
-/********************************************
-********************Nosotros*****************
-********************************************/
-#nosotros img{
-	width:100%;
-}
-
-/****************************************
-****************Servicios****************
-****************************************/
-
-#cards{
-  width: 100%;
-}
-
-#redes{
-  width: 100%;
-}
-
-/****************************************
-*****************Contacto****************
-****************************************/
-#contactImg{
-	width:100%;
-}
-
-#contactImg img{
-  width:100%;
-}
-
-#contactDatos{
-  width:100%;
-  margin-bottom: 20px;
-}
-}
-
-/************************************************
-/************************************************
-*************************************************
-*************************************************
-************************************************/
-@media (max-device-width:680px){
-/************************************************
-*****************Estilos Comunes*****************
-************************************************/
-.topArrow{
-  display:block;
-}
   
-/*******************************************
-*****************Servicios******************
-********************************************/
-#slideshow{
-  display:block;
-  margin-bottom: 20px;
-}
-
-#horizontalSlide{
-  display:none;
-}
-
-/******************************************
-****************Productos******************
-******************************************/
-.producto{
-	width:50%;
-}
-}
-
-/************************************************
-/************************************************
-*************************************************
-*************************************************
-************************************************/
-@media (max-device-width:450px){
-/********************************************
-****************Estilos Comunes**************
-*********************************************/
-#wrapper {
-	padding: 20px;
-}
-
-#nav p{
-  font-size: 3em;
-  line-height: 20px;
-  margin-bottom: -30px;
-}
-
-/******************************************
-****************Productos******************
-******************************************/
-.producto{
-	width:100%;
-}
-
-  .producto .topArrow{
+    #menuPhones ul{
+      margin-top: 0;
+      text-align: center;
+      padding: 0;
+    }
+  
+      #menuPhones li{
+        list-style-type: none;
+        font-size: 1.6em;
+        font-family: 'Eras';
+        margin:30px 0;
+      }
+  
+        #menuPhones li:first-child{
+          background-color: #882627;
+          border-bottom: 2px solid #f2a476;
+          padding: 20px;
+          margin:0;
+        }
+  
+        #menuPhones img{
+          width:80px;
+        }
+  
+        #menuPhones a{
+          text-decoration: none;
+          color: #fff;
+          font-size: .8em;
+        }
+  
+        #menuPhones a#paginaActiva{
+          color:#f2a476;
+        }
+  
+  #logo{
+    display: none;
+  }
+  
+  #nav p{
+    text-align: center;
+  }
+  
+  #phoneMenuTrigger{
+    margin-top:80px;
+    text-align: center;
+    width:100%;
+    display: block;
+    font-size: 1em;
+    font-family: 'Eras';
+    background-color:#882627;
+    color:white;
+    border-top: 5px solid #3e2737;
+    border-bottom: 5px solid #3e2737;
+  }
+  
+  #nav ul{
+    display: none;
+  }
+  
+  #nav{
+    width:100%;
+    height: auto;
+  }
+  
+  #footerMapa, #footerRedes, #footerContacto{
+    width:100%;
+    text-align: center;
+  }
+  
+  /******************************************
+  ****************Inicio******************
+  ******************************************/
+  #header{
+    height: 200px;
+  }
+  
+    #CTA{
+      width: auto;
+      font-size: .8em;
+      height: 40px;
+      top:80px;
+    }
+  
+  
+  .tarjeta__imagen{
+    width:100%;
+  }
+  
+  .tarjeta__descripcion{
+    width:100%;
+  }
+  
+  .reverse{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  
+  /********************************************
+  ********************Nosotros*****************
+  ********************************************/
+  #nosotros img{
+    width:100%;
+  }
+  
+  /****************************************
+  ****************Servicios****************
+  ****************************************/
+  
+  #cards{
+    width: 100%;
+  }
+  
+  #redes{
+    width: 100%;
+  }
+  
+  /****************************************
+  *****************Contacto****************
+  ****************************************/
+  #contactImg{
+    margin-top:20px;
+    padding: 0;
+    width:100%;
+  }
+  
+  #contactImg img{
+    width:100%;
+  }
+  
+  #contactDatos{
+    width:100%;
+    margin-bottom: 20px;
+  }
+  }
+  
+  /************************************************
+  /************************************************
+  *************************************************
+  *************************************************
+  ************************************************/
+  @media (max-device-width:680px){
+  /************************************************
+  *****************Estilos Comunes*****************
+  ************************************************/
+  .topArrow{
     display:block;
   }
-}
+    
+  /*******************************************
+  *****************Servicios******************
+  ********************************************/
+  #slideshow{
+    display:block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #horizontalSlide{
+    display:none;
+  }
+  
+  /******************************************
+  ****************Productos******************
+  ******************************************/
+  .producto{
+    width:50%;
+  }
+  }
+  
+  /************************************************
+  /************************************************
+  *************************************************
+  *************************************************
+  ************************************************/
+  @media (max-device-width:450px){
+  /********************************************
+  ****************Estilos Comunes**************
+  *********************************************/
+  #wrapper {
+    padding: 20px;
+  }
+  
+  #nav p{
+    font-size: 3em;
+    line-height: 20px;
+    margin-bottom: -30px;
+  }
+  
+  /******************************************
+  ****************Productos******************
+  ******************************************/
+  .producto{
+    width:100%;
+  }
+  
+    .producto .topArrow{
+      display:block;
+    }
+  }
