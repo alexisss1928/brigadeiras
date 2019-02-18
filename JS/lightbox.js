@@ -64,7 +64,7 @@
 //
 //	Configuration
 //
-var fileLoadingImage = "Assets/lightbox/loader.png";		
+var fileLoadingImage = "Assets/lightbox/loader.gif";		
 var fileBottomNavCloseImage = "Assets/lightbox/close.gif";
 
 var animate = true;	// toggles resizing animations
