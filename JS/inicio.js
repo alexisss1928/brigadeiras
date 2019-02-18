@@ -47,7 +47,7 @@ var titles = ["Rustic Walls",
 				"http://dynamicdrive.com",
 				"http://cssdrive.com"
 			],
-	    	scale:0.70,
+	    	scale:0.80,
 	    	duration:5000,
 	    	fadeSpeed:2000,
 	    	ease3d:'cubic-bezier(0.445, 0.050, 0.550, 0.950)',

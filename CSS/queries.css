@@ -172,10 +172,6 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
-    #kenburns-slideshow{
-      height: 150px;
-    }
   
   #horizontalSlide{
     display:none;
@@ -218,11 +214,4 @@
     .producto .topArrow{
       display:block;
     }
-  
-  /*******************************************
-  *****************Servicios******************
-  ********************************************/
-  #kenburns-slideshow{
-    height: 100px;
-  }
   }

@@ -133,6 +133,7 @@ but you could also use a gif to better handle ie8*/
 	}
 }
 
+
 @media screen and (max-width:450px){
 	#kenburns-slideshow{
 		width: 100%;
@@ -140,4 +141,3 @@ but you could also use a gif to better handle ie8*/
 		border: none;
 	}
 }
-
