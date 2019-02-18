@@ -219,10 +219,13 @@ p{
 	}
 
 	#footerCinta p{
+		width:80%;
 		padding-top: 10px;
 		padding-bottom: 10px;
 		color:white;
 		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 /****************************************
