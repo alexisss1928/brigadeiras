@@ -80,7 +80,7 @@
   height: auto;
 }
 
-#topArrow{
+.topArrow{
   display:block;
 }
 
@@ -204,7 +204,7 @@
 	width:100%;
 }
 
-  .producto #topArrow{
+  .producto .topArrow{
     display:block;
     width:100%;
   }

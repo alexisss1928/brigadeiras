@@ -131,7 +131,7 @@ p{
 	width:100%;
 }
 
-#topArrow{
+.topArrow{
 	display: none;
 	float:left;
 	width:100%;
@@ -140,7 +140,7 @@ p{
 	margin-bottom: 20px;
 }
 
-	#topArrow a{
+	.topArrow a{
 		width: 150px;
 		color:white;
 		text-decoration: none;
