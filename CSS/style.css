@@ -286,6 +286,7 @@ p{
 ****************Nosotros****************
 ****************************************/
 #nosotros{
+	margin-top:20px;
 	width:100%;
 	text-align: center;
 }
@@ -358,6 +359,7 @@ p{
 }
 
 #horizontalSlide{
+	margin-top:10px;
 	width:100%;
 	float: left;
 	padding: 10px 0;
@@ -459,6 +461,7 @@ p{
 	}
 
 #contactDatos{
+	margin-top:20px;
 	float: left;
 	width:50%;
 	box-sizing: border-box;
